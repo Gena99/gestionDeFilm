@@ -12,3 +12,5 @@
 */
 
 $app->get('/', 'Controller@pageAccueil');
+$app->get('/index', 'Controller@pageAccueil');
+$app->get('/home', 'Controller@home');
